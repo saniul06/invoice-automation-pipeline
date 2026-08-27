@@ -40,7 +40,7 @@ def main():
     # ---------------------------------------------------------
 
     gemini_api_key = os.getenv(
-        "GEMINI_API_KEY", "AQ.Ab8RN6J5Xc2AUFg3Na-AiQmclQ6UKjXcZjRP3pTRcfZ92Vhr1Q"
+        "GEMINI_API_KEY"
     )
 
     accounting_api_url = os.getenv(
