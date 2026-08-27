@@ -51,12 +51,8 @@ Rules:
 
 class InvoiceAIExtractor:
 
-    def __init__(self):
-
-        api_key = os.getenv(
-            "GEMINI_API_KEY"
-        )
-
+    def __init__(self, api_key):
+        
         if not api_key:
             raise RuntimeError(
                 "GEMINI_API_KEY is not configured."

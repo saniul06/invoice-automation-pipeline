@@ -40,7 +40,7 @@ def main():
     # ---------------------------------------------------------
 
     gemini_api_key = os.getenv(
-        "GEMINI_API_KEY"
+        "GEMINI_API_KEY", "AQ.Ab8RN6J5Xc2AUFg3Na-AiQmclQ6UKjXcZjRP3pTRcfZ92Vhr1Q"
     )
 
     accounting_api_url = os.getenv(
@@ -97,7 +97,7 @@ def main():
 
     document_extractor = DocumentExtractor()
 
-    ai_extractor = InvoiceAIExtractor()
+    ai_extractor = InvoiceAIExtractor(gemini_api_key)
 
     accounting_client = AccountingClient(
         base_url=accounting_api_url,
