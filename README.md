@@ -3,7 +3,7 @@
 - **Name:** Saniul Islam
 - **Submission date (YYYY-MM-DD):** 2026-08-27
 - **Hours actually spent:** 12
-- **Repository / how to run it:** [GitHub Repository URL]
+- **Repository / how to run it:** https://github.com/saniul06/invoice-automation-pipeline.git
 
 The application is Dockerized, You just need docker to run the project. Also don't forget to run the accounting server as well.
 
